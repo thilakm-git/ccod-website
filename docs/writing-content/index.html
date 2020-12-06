@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <title>Open Data umsetzen - CCOD</title><meta name="gridsome:hash" content="439aa6c08ca07ea7c056e4ce212ec4341e8b8a97"><meta data-vue-tag="ssr" charset="utf-8"><meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.13"><meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no"><meta data-vue-tag="ssr" data-key="og:url" name="og:url" content="undefined/docs/writing-content/"><meta data-vue-tag="ssr" name="description" content="undefined"><meta data-vue-tag="ssr" data-key="og:title" name="og:title" content="Open Data umsetzen"><meta data-vue-tag="ssr" data-key="twitter:title" name="twitter:title" content="Open Data umsetzen"><meta data-vue-tag="ssr" data-key="og:description" name="og:description" content="undefined"><meta data-vue-tag="ssr" data-key="twitter:description" name="twitter:description" content="undefined"><meta data-vue-tag="ssr" data-key="og:type" name="og:type" content="website"><meta data-vue-tag="ssr" data-key="twitter:card" name="twitter:card" content="summary_large_image"><meta data-vue-tag="ssr" data-key="og:image" name="og:image" content="undefined/logo.jpg"><meta data-vue-tag="ssr" data-key="twitter:image" name="twitter:image" content="undefined/logo.jpg"><link data-vue-tag="ssr" rel="icon" href="data:,"><link data-vue-tag="ssr" rel="icon" type="image/svg+xml" sizes="16x16" href="/ccod-website/assets/static/favicon.ce0531f.2442135d1d343742d9c9fb44791297e9.svg"><link data-vue-tag="ssr" rel="icon" type="image/svg+xml" sizes="32x32" href="/ccod-website/assets/static/favicon.ac8d93a.2442135d1d343742d9c9fb44791297e9.svg"><link rel="preload" href="/ccod-website/assets/css/0.styles.e16ebe22.css" as="style"><link rel="preload" href="/ccod-website/assets/js/app.c537b9c0.js" as="script"><link rel="preload" href="/ccod-website/assets/js/page--src--templates--markdown-page-vue.54af8560.js" as="script"><link rel="prefetch" href="/ccod-website/assets/js/page--src--pages--404-vue.deca6f6c.js"><link rel="prefetch" href="/ccod-website/assets/js/page--src--pages--index-vue.e0d8d14e.js"><link rel="prefetch" href="/ccod-website/assets/js/search.ab82ccc6.js"><link rel="stylesheet" href="/ccod-website/assets/css/0.styles.e16ebe22.css"><noscript data-vue-tag="ssr"><style>.g-image--loading{display:none;}</style></noscript>
+  </head>
+  <body >
+    <div data-server-rendered="true" id="app" class="font-sans antialiased text-ui-typo bg-ui-background"><div class="flex flex-col justify-start min-h-screen"><header class="sticky top-0 z-10 w-full border-b bg-ui-background border-ui-border"><div class="py-2 border-t-2 border-ui-primary"><div class="container"><div class="flex items-center justify-between -mx-2 sm:-mx-4"><div class="flex flex-col items-center px-2 mr-auto sm:px-4 sm:flex-row"><a href="/ccod-website/" title="Home" class="flex items-center text-ui-primary active"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="24" height="24" viewBox="0 0 47.704357 47.704605" version="1.1" id="svg37" inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)" sodipodi:docname="logo_only.svg"><defs id="defs31"></defs><sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.35" inkscape:cx="313.00711" inkscape:cy="235.86472" inkscape:document-units="mm" inkscape:current-layer="layer1" inkscape:document-rotation="0" showgrid="false" inkscape:window-width="1920" inkscape:window-height="1011" inkscape:window-x="0" inkscape:window-y="32" inkscape:window-maximized="1"></sodipodi:namedview><metadata id="metadata34"><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type><dc:title></dc:title></cc:Work></rdf:RDF></metadata><g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-23.01687,-55.522696)"><path d="m 28.587779,64.048541 c -4.227689,5.038372 -6.011686,11.326635 -5.479344,17.412052 0.532694,6.085418 3.381375,11.968338 8.419747,16.196028 10.076744,8.454739 25.153054,7.136379 33.608079,-2.940402 6.111875,-7.28345 7.317317,-17.487901 3.07199,-25.997254 -0.06809,-0.136172 -0.16369,-0.257175 -0.280106,-0.354894 -0.469549,-0.394053 -1.169107,-0.333022 -1.562807,0.136878 -0.298802,0.355953 -0.335492,0.843844 -0.131585,1.231547 3.837868,7.713839 2.740731,16.957323 -2.797175,23.55709 -7.668683,9.139414 -21.342702,10.335644 -30.481763,2.666997 -4.570236,-3.834694 -7.15398,-9.169752 -7.636228,-14.689312 -0.4826,-5.518856 1.135592,-11.223625 4.969581,-15.792449 5.542844,-6.605764 14.468122,-9.289697 22.737939,-6.837186 0.587727,0.174272 1.205088,-0.16122 1.379361,-0.748948 0.174273,-0.587375 -0.160867,-1.204736 -0.748594,-1.379008 -9.117542,-2.703336 -18.957926,0.255764 -25.069095,7.538861 v 0" id="path18" style="opacity:1;fill:#8c9aa2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0352777;"></path><path d="m 54.100668,93.273711 c 2.248252,0 4.070702,-1.82245 4.070702,-4.070705 0,-2.2479 -1.82245,-4.071054 -4.070702,-4.071054 -2.248252,0 -4.070702,1.823154 -4.070702,4.071054 0,2.248255 1.82245,4.070705 4.070702,4.070705 z" id="path20" style="opacity:1;fill:none;stroke:#fbc707;stroke-width:1.76389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"></path><path d="m 37.068204,86.023773 c 2.396772,0 4.339519,-1.942746 4.339519,-4.339166 0,-2.39642 -1.942747,-4.339167 -4.339519,-4.339167 -2.396419,0 -4.339167,1.942747 -4.339167,4.339167 0,2.39642 1.942748,4.339166 4.339167,4.339166 z" id="path22" style="opacity:1;fill:none;stroke:#ed1c24;stroke-width:1.76389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"></path><path d="m 50.108986,71.120324 c 2.10538,0 3.812471,-1.706739 3.812471,-3.81247 0,-2.105377 -1.707091,-3.812116 -3.812471,-3.812116 -2.105377,0 -3.812468,1.706739 -3.812468,3.812116 0,2.105731 1.707091,3.81247 3.812468,3.81247 z" id="path24" style="opacity:1;fill:none;stroke:#231f20;stroke-width:1.76389;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"></path><path d="m 47.640601,69.646065 c 0.2794,0.301273 0.263172,0.773289 -0.03845,1.0541 l -4.978753,4.634442 c -0.301625,0.280458 -0.773288,0.263878 -1.0541,-0.03775 -0.154516,-0.166159 -0.219074,-0.38347 -0.195438,-0.592667 0.0194,-0.170744 0.09772,-0.334786 0.233538,-0.461081 l 4.979106,-4.634441 c 0.301625,-0.280811 0.773289,-0.263878 1.0541,0.03739 v 0" id="path26" style="opacity:1;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0352777;"></path><path d="m 37.069262,83.134523 c -0.883708,0 -1.6002,-0.716137 -1.6002,-1.599847 0,-0.883708 0.716492,-1.599847 1.6002,-1.599847 0.883709,0 1.599847,0.716139 1.599847,1.599847 0,0.88371 -0.716138,1.599847 -1.599847,1.599847" id="path28" style="opacity:1;fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0352777;"></path></g></svg></a><div class="hidden ml-2 mr-5 sm:block sm:ml-8"><a href="/ccod-website/docs/" class="block p-1 font-medium nav-link text-ui-typo hover:text-ui-primary active">
+              Handbuch
+            </a></div></div><div class="w-full px-2 sm:px-4 max-w-screen-xs"><!----></div><div class="flex items-center justify-end px-2 sm:px-4"><a href="https://opendata.bund.de" target="_blank" rel="noopener noreferrer" title="Website" name="Website" class="hidden ml-3 sm:block"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></a><a href="https://twitter.com/OpenDataBundDe" target="_blank" rel="noopener noreferrer" title="Twitter" name="Twitter" class="hidden ml-3 sm:block"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/ccodbund" target="_blank" rel="noopener noreferrer" title="Github" name="Github" class="sm:ml-3"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><button aria-label="Toggle Darkmode" title="Toggle Darkmode" class="ml-2 sm:ml-8"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></button></div></div></div></div></header><main class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background"><!----><div class="w-full pb-24"><div class="flex flex-wrap items-start justify-start"><div class="order-2 w-full md:w-1/3 sm:pl-4 md:pl-6 lg:pl-8 sticky" style="top:4rem;"><div class="mt-8 sm:pl-4 md:pl-6 md:pt-12 lg:pl-8 sm:pb-16 sm:border-l border-ui-border md:mt-0"><h3 class="pt-0 mt-0 text-sm tracking-wide uppercase border-none">On this page</h3><div><ul><li class="font-semibold depth-2"><a href="/ccod-website/docs/writing-content/#open-data-lifecycle-etablieren" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Open-Data-Lifecycle etablieren
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#oberflächliche-datenidentifikation-als-lernprozess" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Oberflächliche Datenidentifikation als Lernprozess
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#datenidentifikation-mit-google-suchoperatoren" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Datenidentifikation mit Google Suchoperatoren
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#datenidentifikation-über-pdf-auswertung" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Datenidentifikation über PDF-Auswertung
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#vollständige-identifikation-von-datenbeständen" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Vollständige Identifikation von Datenbeständen
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#daten-übersicht-verschaffen" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Daten-Übersicht verschaffen
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#datenkatalog-erstellen" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Datenkatalog erstellen
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#daten-auswählen" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Daten auswählen
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#auswahl-über-daten-screening" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Auswahl über Daten-Screening
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#auswahl-über-themenfelder" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Auswahl über Themenfelder
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#interne-bewertung-nach-priorisierung" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Interne Bewertung nach Priorisierung
+        </a></li><li class="depth-5"><a href="/ccod-website/docs/writing-content/#auswertung" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-4"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Auswertung
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#zeitplan-erstellen" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Zeitplan erstellen
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#daten-aufbereiten" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Daten aufbereiten
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#formatwahl" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Formatwahl
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#dateiexport" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Dateiexport
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#persistenz-sicherstellen" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Persistenz sicherstellen
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#lizenz-wählen" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Lizenz wählen
+        </a></li><li class="border-t border-dashed border-ui-border pt-2 mt-2 font-semibold depth-2"><a href="/ccod-website/docs/writing-content/#rechtlichen-rahmen-beachten" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Rechtlichen Rahmen beachten
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#daten-auf-ausnahmetatbestände-prüfen" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Daten auf Ausnahmetatbestände prüfen
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#datenschutz-beachten" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Datenschutz beachten
+        </a></li><li class="border-t border-dashed border-ui-border pt-2 mt-2 font-semibold depth-2"><a href="/ccod-website/docs/writing-content/#bereitstellungsprozesse-konzeptionieren" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Bereitstellungsprozesse konzeptionieren
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#bereitstellungsmethode" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Bereitstellungsmethode
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#manuelle-bereitstellung-per-webformular" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Manuelle Bereitstellung per Webformular
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#standards-richtig-umsetzen" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Standards richtig umsetzen
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#metadaten-eingeben" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Metadaten eingeben
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#metadatenschema-einhalten" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Metadatenschema einhalten
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#kategorisierung" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Kategorisierung
+        </a></li><li class="depth-4"><a href="/ccod-website/docs/writing-content/#einheitliches-vokabular-verwenden" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-3"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Einheitliches Vokabular verwenden
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#it-struktur" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          IT-Struktur
+        </a></li><li class="border-t border-dashed border-ui-border pt-2 mt-2 font-semibold depth-2"><a href="/ccod-website/docs/writing-content/#datenqualität-kontinuierlich-verbessern" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Datenqualität kontinuierlich verbessern
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#aktualität-der-metadaten-sicherstellen" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Aktualität der Metadaten sicherstellen
+        </a></li><li class="depth-3"><a href="/ccod-website/docs/writing-content/#prozesskreislauf-in-gang-halten-und-datenqualität-erhöhen" class="relative flex items-center py-1 text-sm transition transform hover:translate-x-1 pl-2"><span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+          Prozesskreislauf in Gang halten und Datenqualität erhöhen
+        </a></li></ul></div></div></div><div class="order-1 w-full md:w-2/3"><div class="content"><h1 id="open-data-umsetzen"><a href="#open-data-umsetzen" aria-hidden="true"><span class="icon icon-link"></span></a>Open Data umsetzen</h1>
+<p>Die Rahmenbedingungen sind geschaffen und es bestehen Leitziele, die mit
+Open Data innerhalb und außerhalb der Behörde erreicht werden sollen.
+Die Stakeholder sind identifiziert, eine Strategie entwickelt und das
+Thema wurde in der Behörde bekannt gemacht. Nun gilt es, die
+Datenbereitstellung ins Auge zu fassen und die notwendigen Schritte zur
+Einführung von Open Data zu gehen. Beachten Sie, dass regelmäßig
+Anpassungen organisatorischer und technischer Natur notwendig werden
+können. Wird beispielsweise der Aufgabenzuschnitt einer Behörde geändert
+und es kommen neue Daten hinzu, bedarf es der Neubewertung dieser Daten
+auch unter Open-Data-Gesichtspunkten.</p>
+<h2 id="open-data-lifecycle-etablieren"><a href="#open-data-lifecycle-etablieren" aria-hidden="true"><span class="icon icon-link"></span></a>Open-Data-Lifecycle etablieren</h2>
+<p>Gemeinsam mit den regelmäßig anfallenden Daueraufgaben bilden die
+periodisch wiederkehrenden Aufgaben den Open-Data-Lifecycle (siehe
+Abbildung 5: Der Open-Data-Lifecycle). Diese logische Abfolge der
+Erhebung der Daten, deren technischer Aufbereitung sowie die
+Bereitstellung und Pflege sollten als Kernbestandteil jeder
+Open-Data-Einführung berücksichtigt werden.</p>
+<p>In einem ersten Schritt werden die in einer Behörde erhobenen Daten
+identifiziert, die seit dem Inkrafttreten des Gesetzes erstellt oder
+aktualisiert wurden. Diese Daten müssen auf mögliche Ausnahmetatbestände
+geprüft und sollten katalogisiert werden. Anschließend werden die
+geeigneten Datensätze ausgewählt und priorisiert. Um das
+Arbeitsaufkommen auf einem gleichbleibend niedrigen Niveau zu halten,
+ist es ratsam, einen Zeitplan zur Veröffentlichung zu erstellen.</p>
+<p>Nach der Datenidentifikation folgt die Datenaufbereitung. Hier werden
+die entsprechenden Formate festgelegt, Metadaten generiert und Lizenzen
+vergeben. Es folgt die konkrete Bereitstellung der Metadaten auf
+GovData.de.</p>
+<p>Abschließend setzt das Qualitätsmanagement in Form einer Datenpflege
+ein. Die Pflege bestehender Datensätze, die Anhebung der technischen
+sowie inhaltlichen Qualität und die Bereitstellung neuer Datensätze
+werden in diesem Schritt geplant und überwacht.</p>
+<p>Abbildung 5: Der Open-Data-Lifecycle (eigene Darstellung)</p>
+<h3 id="oberflächliche-datenidentifikation-als-lernprozess"><a href="#oberfl%C3%A4chliche-datenidentifikation-als-lernprozess" aria-hidden="true"><span class="icon icon-link"></span></a>Oberflächliche Datenidentifikation als Lernprozess</h3>
+<p>Vor einer tiefgreifenden Datenidentifikation, wie in Kapitel 3.1.2
+beschrieben, kann eine grobe Datenidentifikation erfolgen. Ziel dieser
+ersten Erhebung st es, zügig Daten ausfindig zu machen, die schnell
+geöffnet werden können. Darüber lassenn sich Erfahrungen sammeln, die
+wertvoll bei der Generierung übergreifender Open-Data-Prozesse sein
+können. Dazu eignen sich insbesondere Daten, die bereits – ggf. in
+anderer Form – veröffentlicht wurden.</p>
+<p>Dieser Schritt kann parallel zum Aufsetzen einer Open-Data-Strategie
+oder der Konzeption von Bereitstellungsprozessen erfolgen.</p>
+<h4 id="datenidentifikation-mit-google-suchoperatoren"><a href="#datenidentifikation-mit-google-suchoperatoren" aria-hidden="true"><span class="icon icon-link"></span></a>Datenidentifikation mit Google Suchoperatoren</h4>
+<p>Die einfachste, schnellste und gleichzeitig rudimentärste Form der
+Datenidentifikation stellt die Suche mit den Google Suchoperatoren
+<em>Site</em> und <em>Filetype</em> dar. Sie ermöglicht einen groben Überblick über
+Datenbestände, die bereits veröffentlicht wurden. Die Syntax folgt einem
+einfachen Schema:</p>
+<img src="/home/thilak/Nextcloud/Admin/opendata.bund.de/media/image5.png" style="width:6.3in;height:0.40321in" />
+<p>Abbildung : Google Suchabfrage mit Operatoren[19]</p>
+<p>Der vorangestellte Operator schränkt das Suchergebnis auf die jeweilige
+im Anschluß genannte Domain ein. Es folgt ein Leerzeichen und danach der
+zweite Suchoperator <em>FILETYPE gefolgt von der gesuchten Dateiendung</em>, um
+alle Dateien eines bestimmten Typs auszugeben.</p>
+<p>Auf diese Weise lassen sich sehr schnell mögliche erste Open-Data-fähige
+Datensätze identifizieren. Bei dieser Suche entfällt eine mögliche
+Dateikonvertierung und eine Prüfung auf Personenbeziehbarkeit wird
+voraussichtlich ebenfalls zügig möglich sein, da diese Daten ja bereits
+veröffentlicht sind.</p>
+<h4 id="datenidentifikation-über-pdf-auswertung"><a href="#datenidentifikation-%C3%BCber-pdf-auswertung" aria-hidden="true"><span class="icon icon-link"></span></a>Datenidentifikation über PDF-Auswertung</h4>
+<p>Mit ebenfalls überschaubarem Aufwand lässt sich eine Übersicht von
+veröffentlichten PDF-Dateien erstellen. Dazu geht man zunächst wie in
+3.1.1.1 beschrieben vor, durchsucht die Seite jedoch gezielt nach
+PDF-Dateien.</p>
+<blockquote>
+<p>Während ein PDF nicht für Open Data in Frage kommt, sind die darin
+enthaltenen Daten häufig von Interesse für Open-Data-Interessierte.
+Insbesondere Jahresberichte und Statistiken beinhalten Tabellen und
+Übersichten(Schaubilder), deren zugrundliegenden Daten vom
+Open-Data-Gesetz erfasst sind.</p>
+<p>Da die Auswertung der PDFs manuell erfolgen muss, erzeugt diese Form
+der oberflächlichen Datenidentifikation einen etwas größeren Aufwand.
+Häufig lohnt sich dieser , da man so auf Daten stossen kann, die
+anderweitig übersehen werden könnten.</p>
+</blockquote>
+<h3 id="vollständige-identifikation-von-datenbeständen"><a href="#vollst%C3%A4ndige-identifikation-von-datenbest%C3%A4nden" aria-hidden="true"><span class="icon icon-link"></span></a>Vollständige Identifikation von Datenbeständen</h3>
+<p>Ziel dieses Schritts ist es, eine Übersicht über veröffentlichungsfähige
+Datensätze, die im eigentlichen Autrag der Behörde erstellt wurden, zu
+gewinnen. Diese sollten seit Inkrafttreten des Open-Data-Gesetzes
+erstellt oder aktualisiert worden sein. Dazu wird dieser Prozess in drei
+Prozessschritte unterteilt. Es gilt zunächst, eine Daten-Übersicht zu
+gewinnen, danach die Daten zu bewerten und zu katalogisieren, um
+abschließend eine Auswahl sowie Priorisierung für die Veröffentlichung
+zu wählen.</p>
+<p>Abbildung 7: Daten identifizieren (eigene Darstellung)</p>
+<h3 id="daten-übersicht-verschaffen"><a href="#daten-%C3%BCbersicht-verschaffen" aria-hidden="true"><span class="icon icon-link"></span></a>Daten-Übersicht verschaffen</h3>
+<p>Bevor ein Datenkatalog angelegt werden kann, bedarf es einer möglichst
+vollständigen Übersicht über vorhandene Datensätze. Gemeint sind damit
+alle Datensätze, die seit dem 13.07.2017 entstanden sind bzw.
+aktualisiert worden sind. Diese Datenübersicht sollte alle Daten
+enthalten, die nach Inkrafttreten des Open-Data-Gesetzes erhoben oder
+aktualisiert wurden. Umfasst eine bereits vorhandene
+Digitalisierungsstrategie der Behörde die Einführung eines konsistenten
+Datenmanagements, macht es durchaus Sinn, sämtliche Datenbestände zu
+erfassen.</p>
+<p>Für einen Datenüberblick kann eine Abwandlung der Vorgehensempfehlung
+des <a href="https://www.europeandataportal.eu/en/providing-data/goldbook" target="_blank" rel="noopener noreferrer">Open Data
+Goldbooks</a>
+der Europäischen Union[20] genutzt werden:</p>
+<ol>
+<li><strong>Bilden Sie einen Querschnitt</strong></li>
+</ol>
+<p>Bedenken Sie, dass sich bislang wahrscheinlich nicht jede Person in
+einer Behörde mit Open Data auseinander gesetzt haben wird. Umso
+wichtiger ist eine transparente Ankündigung der Einführung vorab.</p>
+<p>Eine Behörde hat in der Regel mehr als nur eine Aufgabe und an mehr als
+nur einer Stelle werden Daten erhoben, die sich für die Bereitstellung
+als Open Government Data eignen. Niemand weiß besser über den Umfang und
+die Art der erhobenen Daten Bescheid, als die Stellen, die die Daten
+erheben. Befragen Sie in einem ersten Schritt die Mitarbeitenden in den
+Fachabteilungen so erhalten Sie einen ersten groben Überblick über die
+Vielfalt und Menge vorhandener Daten. Zudem erhalten Sie erste
+Anhaltspunkte darüber, ob tiefergehende Anpassungen bei Prozessen und IT
+notwendig werden.</p>
+<p>Mögliche Methoden:</p>
+<ul>
+<li>Selbstaufschreibung</li>
+<li>Laufzettelverfahren</li>
+<li>Workshops (mit ausgewählten Teilnehmenden)</li>
+<li>Hospitation</li>
+<li>Crawler auf der Website nach Daten suchen lassen</li>
+<li>Ermittlung durch externe Berater</li>
+</ul>
+<ol>
+<li><strong>Strukturieren Sie die Ergebnisse</strong></li>
+</ol>
+<p>Auf Grundlage der Ergebnisse aus der Erhebung können Antworten auf die
+wichtigsten Fragen abgeleitet werden:</p>
+<ul>
+<li>Welche Daten erhebt meine Behörde aktuell?</li>
+<li>Welche älteren Daten wurden seit dem 13.07.2017 aktualisiert?</li>
+<li>Wer erhebt die Daten?</li>
+<li>Wer nutzt die Daten?</li>
+<li>Wer veröffentlicht ggf. bereits Daten?</li>
+<li>Wie werden die Daten erhoben (manuell/Fachverfahren)?</li>
+<li>Wo werden die Daten gespeichert (zentral/dezentral)?</li>
+<li>In welchem Format liegen die Daten vor (elektronisch,
+maschinenlesbar, Papierform)?</li>
+<li>Wie werden die Daten veröffentlicht (auf eigener Website, über
+Webformular oder Schnittstelle an GovData.de, an andere Portale)?</li>
+</ul>
+<ol>
+<li><strong>Ziehen Sie die richtigen Schlüsse</strong></li>
+</ol>
+<p>Werten Sie die Ergebnisse sachlich und mit der nötigen Sorgfalt aus. Je
+nach Beantwortung der Fragen ergeben sich daraus unterschiedliche
+Handlungsperspektiven. Werden die Daten bereits zentral in einer
+einzigen Fachanwendung gesammelt und gespeichert? Dann lohnt sich
+eventuell eine Automatisierung. Werden die Daten dezentral von
+verschiedenen Personen erhoben, gespeichert und gepflegt? Dann ist es
+eventuell nötig, diese Mitarbeitenden stärker in der Planung zu
+berücksichtigen.</p>
+<ol>
+<li><strong>Werden bereits Daten veröffentlicht?</strong></li>
+</ol>
+<p>Werden in Ihrer Behörde Daten bereits öffentlich bereitgestellt, bietet
+es sich an, genau hier zu starten. Oft befinden sich auch in PDFs
+Tabellen oder Übersichten, die als Rohdaten exportiert und als Open Data
+bereitgestellt werden können. Analysieren Sie den aktuellen
+Bereitstellungsprozess und überprüfen Sie Anknüpfungspunkte sowie Best
+Practices, die bei der weiteren Öffnung von Daten nützlich sein können.</p>
+<p>Wurden bisher keine Daten veröffentlicht oder gibt es keine bewährten
+Prozesse zur Bereitstellung, auf denen Sie aufbauen können, haben Sie
+die Chance, gänzlich neue Prozesse zu entwickeln.</p>
+<p>Es sollte zunächst nicht zwangsläufig darum gehen, möglichst viele Daten
+zu veröffentlichen. In vielen Fällen ist es sinnvoller, die Daten zur
+Veröffentlichung zu priorisieren. Identifizieren Sie dazu Daten, die
+sich mit möglichst geringem Aufwand bereitstellen lassen. Es ist
+ebenfalls möglich, Daten auszuwählen, die voraussichtlich auf großes
+Interesse stoßen. Durch dieses Vorgehen ist es möglich, ein Gespür dafür
+zu entwickeln, wie Sie weitere Daten sinnvoll veröffentlichen können.</p>
+<h3 id="datenkatalog-erstellen"><a href="#datenkatalog-erstellen" aria-hidden="true"><span class="icon icon-link"></span></a>Datenkatalog erstellen</h3>
+<p>Auf Grundlage der Datenübersicht lässt sich ein Datenkatalog erstellen,
+der möglichst vollständig die in einer Behörde erhobenen Daten umfassen
+sollte und als Grundlage für die Datenauswahl dient.</p>
+<p>Dies kann beispielsweise durch das Führen einer Tabelle geschehen,
+mittels einer MS-Access-Datenbank, über spezielle Katalogsoftware oder
+andere Fachverfahren. Eine Excel-Tabelle bildet sicher den einfachsten
+Weg einen eigenen Datenkatalog aufzustellen, bietet aber auch den
+geringsten Komfort und erfordert einen eventuell höheren Pflegeaufwand.</p>
+<p>Der Datenkatalog erfüllt zwei Aufgaben. Erstens bildet er eine
+Gesamtübersicht über die Datenbestände einer Behörde und vereinfacht die
+Priorisierung. So ist es möglich, eine planvolle und zeitlich
+abgestimmte Veröffentlichung von geeigneten Daten vorzunehmen. Die
+übrigen Datenbestände können, wann immer möglich, derweil von etwaigen
+Hinderungsgründen befreit werden.</p>
+<p>Folgende interne Strukturdaten werden empfohlen:</p>
+<ul>
+<li>Bezeichnung des Datensatzes</li>
+<li>datenliefernde Stelle (Organisationseinheit)</li>
+<li>Wo derzeit in welchem Format abgespeichert?</li>
+<li>Primärquelle der Daten bekannt? ja/nein</li>
+<li>datenverantwortliche Person: Name/Kontakt</li>
+<li>evtl. gewünschtes Veröffentlichungsdatum</li>
+</ul>
+<h3 id="daten-auswählen"><a href="#daten-ausw%C3%A4hlen" aria-hidden="true"><span class="icon icon-link"></span></a>Daten auswählen</h3>
+<p>In einem letzten Schritt werden aus dem Datenkatalog Daten ausgewählt,
+die veröffentlichungsfähig sind und priorisiert. So ist es möglich,
+einen Zeitplan zu erstellen, der den Pflegeaufwand bestehender
+Datensätze und die regelmäßige Öffnung neuer Daten auf einem konstanten
+und überschaubaren Niveau hält.</p>
+<p>Es gibt keinen vorgeschriebenen Weg, wie die geeigneten Datensätze
+auszuwählen sind. Welches Vorgehen in der jeweiligen Behörde am
+erfolgversprechendsten ist, hängt vom Einzelfall und den übergeordneten
+Leitzielen ab.</p>
+<h4 id="auswahl-über-daten-screening"><a href="#auswahl-%C3%BCber-daten-screening" aria-hidden="true"><span class="icon icon-link"></span></a>Auswahl über Daten-Screening</h4>
+<p>Das Vorgehensmodell des KDZ, des <a href="https://www.kdz.eu/" target="_blank" rel="noopener noreferrer">Zentrums für Verwaltungsforschung in
+Wien</a>, empfiehlt ein Datenscreening, um eine
+Rangliste von Datensätzen zu erarbeiten.</p>
+<p>Ein Datenscreening sollte als Selbst-Screening, Fremd- und
+Stakeholder-Screening durchgeführt werden.</p>
+<p>Beim Selbst-Screening gilt als einfachster Ansatzpunkt die Frage, welche
+Daten die Behörde bereits selbst veröffentlicht hat. Häufig gibt
+existieren Dokumente, die noch nicht den Anforderungen eines
+Open-Data-Portals genügen, aber grundsätzlich bereits öffentlich
+zugänglich sind.</p>
+<p>Beim Fremdscreening wird analysiert, was andere bereits veröffentlicht
+haben. Open Data bietet mittlerweile national wie international eine
+Reihe von Beispielen. Es lohnt sich einen Blick auf andere OGD-Portale
+zu werfen, um die Art und den Umfang von Daten anderer Behörden und
+Institutionen kennen zu lernen.</p>
+<p>Zu guter Letzt die Frage, was wollen die Stakeholder? Zur Beantwortung
+dieser Frage kann zwischen den folgenden Zielgruppen unterschieden
+werden:</p>
+<ul>
+<li>Bürgerinnen und Bürger als Akteure in Privatheit</li>
+<li>Wirtschaftsunternehmen als Akteure des Marktes</li>
+<li>Politik und Verwaltung als Akteure öffentlicher Stellen des Staates</li>
+<li>Zivilgesellschaft als Akteur des öffentlichen Bereichs</li>
+</ul>
+<p>und zudem die Querschnittsgruppen:</p>
+<ul>
+<li>Wissenschaft als Triebfeder gesellschaftlichen Fortschritts durch
+Wissensproduktion und Hochschulausbildung</li>
+<li>Medien als Garanten des öffentlichen Raums sowie als Kontrolleure
+des staatlichen und wirtschaftlichen Bereichs</li>
+<li>Akteure des Bildungssystems als Versorger der Mitglieder einer
+Bildungsgesellschaft</li>
+</ul>
+<p>Für den dritten Schritt ist es nötig, bereits über Ergebnisse des
+Selbst- und Fremd-Screenings zu verfügen. Umfragen und Veranstaltungen
+bieten sich als Methoden an, um die Stakeholder-Interessen kennen zu
+lernen. So gibt es zum Beispiel Erfahrungen auf Landesebene, wo ein
+Austausch mit der Open-Data-Community an einen Tisch stattfindet, um zu
+ermitteln, welche Dateiformate dort benötigt werden bzw. welche Daten
+dort gefragt waren.[21]</p>
+<p>So können Sie Schritt-für-Schritt Ihren Datenkatalog verfeinern und
+geeignete Datensätze auswählen.</p>
+<h4 id="auswahl-über-themenfelder"><a href="#auswahl-%C3%BCber-themenfelder" aria-hidden="true"><span class="icon icon-link"></span></a>Auswahl über Themenfelder</h4>
+<p>Eine weitere Möglichkeit könnte eine Auswahl über Themencluster sein.
+Beispiele dieser Themenbereiche sind:</p>
+<ul>
+<li>Bevölkerung und Gesellschaft</li>
+<li>Bildung, Kultur und Sport</li>
+<li>Energie</li>
+<li>Gesundheit</li>
+<li>Internationale Themen</li>
+<li>Justiz, Rechtssystem und öffentliche Sicherheit</li>
+<li>Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel</li>
+<li>Regierung und öffetnlicher Sektor</li>
+<li>Regionen und Städte</li>
+<li>Umwelt</li>
+<li>Verkehr</li>
+<li>Wirtschaft und Finanzen</li>
+<li>Wissenschaft und Technologie</li>
+</ul>
+<p>Grundsätzlich ist davon auszugehen, dass es für fast alle Daten der
+Verwaltung interessierte Nutzende gibt. Manchmal sind es auch gerade die
+zunächst unscheinbaren Daten, die bei genauer Betrachtung dann doch von
+Interesse sind.</p>
+<h4 id="interne-bewertung-nach-priorisierung"><a href="#interne-bewertung-nach-priorisierung" aria-hidden="true"><span class="icon icon-link"></span></a>Interne Bewertung nach Priorisierung</h4>
+<p>Eine Bewertung der internen Datenbestände kann auch nach folgenden
+Kriterien erfolgen. Die Summe der vergebenen Punkte hilft bei der
+Priorisierung der zu veröffentlichenden Datensätze.</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Kriterium</strong></th>
+<th><strong>Erläuterung</strong></th>
+<th><strong>Bewertung (Punkte 0-5)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Geheimhaltung/ rechtliche Hindernisse</strong></td>
+<td>Unterliegen die Daten Geheimhaltungspflichten oder sonstigen rechtlichen Beschränkungen bzw. handelt es sich um infrastrukturkritische Daten?</td>
+<td><p>0: Geheimhaltungspflicht gegeben</p>
+<p>1: Einschränkungen vorhanden, änderbar</p>
+<p>2: Einschränkungen vorhanden, sehr leicht änderbar (z. B: interne Richtlinien, Verwaltungskultur)</p>
+<p>3: keine Einschränkungen</p></td>
+</tr>
+<tr class="even">
+<td><strong>Personenbezug</strong></td>
+<td>Handelt es sich um personenbezogene Daten bzw. lassen sich Rückschlüsse auf Personen daraus ableiten?</td>
+<td><p>0: Personenbezogene Daten</p>
+<p>1: Zustimmung zur Veröffentlichung vorhanden (z. B. Förderdaten)</p>
+<p>2: Anonymisierbare Daten</p>
+<p>3: Kein Rückschluss auf Personen ableitbar, bzw. keine Verletzung schutzwürdiger Geheimhaltungsinteressen (§5 IFG)</p></td>
+</tr>
+<tr class="odd">
+<td><strong>Unternehmensbezug</strong></td>
+<td>Handelt es sich um unternehmensbezogene Daten bzw. lassen sich Rückschlüsse auf Unternehmen daraus ableiten?</td>
+<td><p>0: Rückschluss auf Betriebs- oder Geschäftsgeheimnisse?</p>
+<p>1: Einwilligung des Betroffenen liegt vor</p>
+<p>2: Kein Rückschluss auf Betriebs- und Geschäftsgeheimnisse (§6 IFG)</p></td>
+</tr>
+<tr class="even">
+<td><strong>Nutzungsrecht</strong></td>
+<td>Besitzt die Verwaltung das alleinige Nutzungsrecht der Daten?</td>
+<td><p>0: Fehlendes Nutzungsrecht: Veröffentlichung ist nicht möglich</p>
+<p>1: Lizenzkosten fallen an, Genehmigungen sind einzuholen</p>
+<p>2: Lizenzkosten fallen an, Genehmigungen sind vorhanden</p>
+<p>3: Keine Lizenzkosten, aber Genehmigungen sind einzuholen</p>
+<p>4: Keine Lizenzkosten, Genehmigungen vorhanden</p>
+<p>5: Alleiniges Nutzungsrecht sichergestellt</p></td>
+</tr>
+<tr class="odd">
+<td><strong>Nutzen</strong></td>
+<td>Wie hoch wird der Nutzen für alle Zielgruppen eingeschätzt?</td>
+<td><p>1: Der Nutzen ist gering</p>
+<p>2: Der Nutzen ist durchschnittlich</p>
+<p>3: Der Nutzen ist hoch</p></td>
+</tr>
+<tr class="even">
+<td><strong>Aufwand</strong></td>
+<td>Wie hoch ist der Aufwand für die Veröffentlichung?</td>
+<td><p>1: Der Aufwand ist hoch</p>
+<p>2: Der Aufwand ist durchschnittlich</p>
+<p>3: Der Aufwand ist gering</p></td>
+</tr>
+<tr class="odd">
+<td><strong>Inhaltliche Datenqualität</strong></td>
+<td>Wie hoch wird die Datenqualität eingeschätzt? (Vollständigkeit, zeitliche Nähe, Genauigkeit, Fehlerhaftigkeit,…)</td>
+<td><p>1: Die Datenqualität ist gering</p>
+<p>2: Die Datenqualität ist durchschnittlich</p>
+<p>3: Die Datenqualität ist hoch</p></td>
+</tr>
+<tr class="even">
+<td><strong>Technische Verfügbarkeit</strong></td>
+<td>Verfügbare Datenformate und Datenquellen, Maschinenlesbarkeit, offene Standards…</td>
+<td><p>0: Daten sind nicht elektronisch verfügbar</p>
+<p>1: Daten sind elektronisch verfügbar, jedoch nicht maschinenlesbar</p>
+<p>2: Daten sind in maschinenlesbarem Format verfügbar</p>
+<p>3: Daten sind leicht in ein offenes Format zu exportieren</p>
+<p>4: Daten liegen in offenem Format vor</p></td>
+</tr>
+</tbody>
+</table>
+<h5 id="auswertung"><a href="#auswertung" aria-hidden="true"><span class="icon icon-link"></span></a>Auswertung</h5>
+<p>Sollten einzelne Kriterien mit 0 bewertet werden (rot gekennzeichnet),
+so sind dies Ausschließungsgründe für eine Veröffentlichung. Kriterien,
+bei denen 0 nicht vorkommt, können zwar ebenso wenig Punkte erhalten,
+dies stellt allerdings keinen Ausschließungsgrund dar. Daten, die unter
+ein gelbes Kriterium fallen (gelb gekennzeichnet), müssen gemäß dem
+EGovG nicht veröffentlicht werden, auch wenn dies nutzbringend wäre. Sie
+können aber nach entsprechender Bearbeitung ggf. veröffentlicht werden.</p>
+<p>Falls im ersten Schritt aufgrund einer zu geringen Bewertung von einer
+Veröffentlichung abgesehen wird, müssen Maßnahmen zur Erhöhung der
+Datenqualität getroffen werden. Im Anschluss kann eine erneute Bewertung
+durchgeführt werden.</p>
+<p>Die fehlende Gewichtung der Kriterien impliziert einen gleichen
+Stellenwert jedes Kriteriums. Dies ist eine vereinfachende Annahme, die
+allerdings für das interne Datenscreening ausreicht. Es handelt sich um
+eine Einschätzung, die dabei helfen soll, veröffentlichungsfähige
+Datensätze zu identifizieren. Es ist allerdings auch einfach, je nach
+Präferenz den Kriterien unterschiedliche Gewichtungen zu verleihen.[22]</p>
+<h3 id="zeitplan-erstellen"><a href="#zeitplan-erstellen" aria-hidden="true"><span class="icon icon-link"></span></a>Zeitplan erstellen</h3>
+<p>Durch die Datenauswahl erhalten Sie eine Übersicht der unter
+Open-Data-Kriterien bereitzustellenden Daten und können eine
+Priorisierung vornehmen.</p>
+<p>Legen Sie nun fest, wann Sie welchen Datensatz öffnen möchten und wann
+oder in welchen Intervallen eine Aktualisierung erfolgen muss. Es
+empfiehlt sich auch, Verantwortlichkeiten für die einzelnen Datensätze
+zu vergeben und Deadlines zur Einreichung neuer Datensätze sowie von
+Aktualisierungsintervallen festzulegen.</p>
+<p>Legen Sie dazu beispielsweise eine Mindestzahl neu zu öffnender
+Datensätze pro Quartal fest. So bleibt der Aufwand insgesamt
+überschaubar und Sie haben die Möglichkeit, wichtige Lessons Learned in
+die Öffnung weiterer Datensätze einfließen zu lassen.</p>
+<h3 id="daten-aufbereiten"><a href="#daten-aufbereiten" aria-hidden="true"><span class="icon icon-link"></span></a>Daten aufbereiten</h3>
+<p>Nachdem die Daten ausgewählt wurden und ein realistischer Zeitplan für
+die Veröffentlichung und Pflege aufgebaut wurde, müssen die Daten
+technisch so aufbereitet werden, dass sie vom Nutzenden maschinell und
+automatisiert weiterverwendet werden können. Nicht jedes Dateiformat ist
+dafür geeignet und eventuell bedarf es technischer Anpassungen. Außerdem
+sollte anhand der Menge der zu veröffentlichenden Datensätze eine
+Bereitstellungsmethode für die Metadaten gewählt werden.</p>
+<p>Abbildung 8: Daten aufbereiten (eigene Darstellung)</p>
+<p>Es gilt zwei Ebenen zu unterscheiden:</p>
+<ul>
+<li><strong>Ebene 1:</strong> Die erhobenen Daten müssen in ein offenes und
+maschinenlesbares Format exportiert und öffentlich zugänglich
+gespeichert werden. Dieser Schritt kann als periodisch
+wiederkehrende Aufgabe erfolgen und wird im Kapitel „Formatwahl“
+behandelt.</li>
+<li><strong>Ebene 2:</strong> Die Daten müssen mit Metadaten versehen und diese an
+GovData.de übertragen werden. Diese Ebene wird im Kapitel
+„Bereitstellungsmethode wählen“ behandelt.</li>
+</ul>
+<p>Die Ebenen sollten unabhängig voneinander betrachtet werden, da sie an
+unterschiedlichen Stellen zum Tragen kommen.</p>
+<h4 id="formatwahl"><a href="#formatwahl" aria-hidden="true"><span class="icon icon-link"></span></a>Formatwahl</h4>
+<p>Damit Daten in softwaregestützten Prozessen erkennbar sind, müssen sie
+maschinenlesbar sein. Diese Verarbeitung erfordert ein offenes Format.
+Denn erst so können sie mit entsprechendem Spezialwissen zur
+Dateninterpretation, –analyse und –visualisierung verarbeitet, lesbar
+und nutzbar gemacht werden. Beispielsweise sind Daten im PDF-Format für
+den Menschen gut lesbar, jedoch schwierig für Maschinen zu
+interpretieren.</p>
+<p><span class="underline">Empfohlene Formate</span></p>
+<p>Für Tabellen und Texte gelten folgende empfohlene Dateiformate:</p>
+<ul>
+<li>CSV (Comma Separated Value)</li>
+<li>XML (Extensible Markup Language)</li>
+<li>HTML (Hypertext Markup Language)</li>
+<li>RDF (Resource Despription Framework)</li>
+<li>JSON (Java Script Object Notation)</li>
+</ul>
+<p>Für Geodaten gelten folgende Regelungen der
+<a href="https://www.geoportal.de/DE/GDI-DE/Aktuelles/aktuelles.html?lang=de" target="_blank" rel="noopener noreferrer">GDI-DE</a>.</p>
+<p>Die Daten sollten in mindestens einem maschinenlesbaren Format zur
+Verfügung gestellt werden. Eine Bereitstellung in mehreren Formaten
+erleichtert die Weiterverarbeitung für Nutzende.</p>
+<p>Dateien in den Formaten PDF, DOC, DOCX sind keine maschinenlesbaren
+Formate und sollten nicht verwendet werden. Ebendso sollten ZIP-Dateien
+nicht verwendet werden; hier kann eine Daten nutzende Person nicht
+erkennen, welche Dateien tatsächlich vorhanden sind, die Beschreibung
+fällt schwer und möglicherweise ist die Darstellung nicht eindeutig.</p>
+<p>Werden in Tabellen-Dateien Arbeitsblätter mit mehreren Tabellenblättern
+verwendet, müssen diese in Einzeldateien aufgeteilt werden, und jeder
+Datensatz einzeln mit Metadaten beschrieben werden.[23] Zudem sollte
+darauf geachtet werden, möglichst keine Abkürzungen zu verwenden und die
+Überschriften der einzelnen Felder in den Spalten geschrieben werden.</p>
+<h4 id="dateiexport"><a href="#dateiexport" aria-hidden="true"><span class="icon icon-link"></span></a>Dateiexport</h4>
+<p>Wurde für die katalogisierten Daten ein entsprechendes offenes und
+maschinenlesbares Format gewählt, gilt es, die Daten in dieses Format zu
+überführen.</p>
+<p>Dies geschieht im Idealfall automatisiert, was jedoch die Schaffung von
+Schnittstellen für den automatischen Dateiexport in bestehenden
+Fachverfahren erforderlich machen kann.</p>
+<p>In vielen Fällen ist auch eine manuelle Sicherung von Daten in einem
+offenen Format möglich, was den Daueraufwand aber erhöht. So lassen sich
+beispielsweise Excel-Dateien problemlos als CSV-Dateien abspeichern.
+Dazu muss jedoch die „Speichern unter“-Funktion genutzt und das
+entsprechende Format manuell ausgewählt werden.</p>
+<h4 id="persistenz-sicherstellen"><a href="#persistenz-sicherstellen" aria-hidden="true"><span class="icon icon-link"></span></a>Persistenz sicherstellen</h4>
+<p>Auf GovData.de verweisen Metadaten auf den eigentlichen Datensatz. Die
+Daten selbst bleiben in Besitz der Behörde. Wird die Ressource, also die
+Quelle, unter der ein Datensatz abgelegt ist, geändert, ist er unter
+Umständen nicht mehr über GovData.de abrufbar. Es ist deshalb darauf zu
+achten, dass die bereitgestellten Datensätze dauerhaft abgerufen werden
+können.</p>
+<h4 id="lizenz-wählen"><a href="#lizenz-w%C3%A4hlen" aria-hidden="true"><span class="icon icon-link"></span></a>Lizenz wählen</h4>
+<p>Lizenzen regeln die Bedingungen, unter denen Ihre Daten verwendet werden
+dürfen. Mehr dazu finden Sie im Leitfaden Anforderungen an die Daten.</p>
+<p>Wurde keine dezentrale Strategie gewählt, bei der erst im
+Bereitstellungsprozess eine Lizenzwahl erfolgt, gilt es an dieser Stelle
+für jeden Datensatz die geeignete Lizenz auszuwählen. Während der
+Bereich der Geodaten eigene Lizenzen und Regelungen kennt, besteht bei
+allgemeinen Verwaltungsdaten ein großer Spielraum bei der Lizenzwahl.
+Grundlegend sollte aber auf eine möglichst freie Weiterverwendbarkeit
+geachtet werden, die durch möglichst hohe Rechtssicherheit für nutzende
+und bereitstellende Personen erreicht wird.</p>
+<p>Das BMI, GovData und das CCOD empfehlen die Nutzung der <a href="https://www.govdata.de/dl-de/by-2-0" target="_blank" rel="noopener noreferrer">Datenlizenz
+Deutschland 2.0</a>. Dieses
+Lizenzmodell ermöglicht eine freie Weiterverwendung der Daten und ist
+speziell auf den deutschen Rechtsraum abgestimmt. So entsteht die nötige
+Rechtssicherheit sowohl auf Seiten der Nutzenden als auch bei den
+Bereitstellenden.m Bereitsteller.</p>
+<h2 id="rechtlichen-rahmen-beachten"><a href="#rechtlichen-rahmen-beachten" aria-hidden="true"><span class="icon icon-link"></span></a>Rechtlichen Rahmen beachten</h2>
+<p>Die Auswahl der Daten erfolgt unter Beachtung des § 12a EGovG. Dazu kann
+ein Experte für Recht das Einführungsteam verstärken, der die Daten
+dementsprechend bewertet. Eine vereinfachte Darstellung der
+Gesetzesinhalte bietet der Leitfaden Rechtliche Anforderung an die
+Daten.</p>
+<p>Die für die Datenauswahl besonders relevanten Punkte
+„Ausnahmetatbestände“ und „Datenschutz“ werden vor der eigentlichen
+Datenauswahl ausführlich behandelt.</p>
+<p>Die unmittelbaren Bundesbehörden werden mit dem „Open-Data-Gesetz“
+verpflichtet, unbearbeitete Daten (Rohdaten) zu veröffentlichen, die
+elektronisch und in strukturierter Form vorliegen.</p>
+<p>Roh- oder Ursprungsdaten, haben noch keine Bearbeitung erfahren.
+Datensätze, die im Sinne des Datenschutzes anonymisiert wurden gelten
+ebenfalls als unbearbeitete Daten.</p>
+<p>Im Fokus stehen hier elektronisch gespeicherten Daten, die nach dem
+<strong>13.07.2017</strong> erhoben oder aktualisiert wurden. Listen in Papierform
+müssen also nicht nachträglich digitalisiert werden und auch Daten, die
+vor dem Stichtag erhoben und nicht mehr aktualisiert wurden, fallen
+nicht unter die Veröffentlichungspflicht. Das Gesetz sieht
+ausschließlich die Öffnung von Daten vor, die Tatsachen enthalten,
+welche außerhalb der Behörde liegende Verhältnisse beschreiben. Nicht
+gemeint sind interne Daten wie Flurpläne, persönlichen Daten oder
+Notizen. Bereitzustellen sind also Daten, die im eigentlichen Auftrag
+der Behörde erstellt wurden.</p>
+<p>So ist eine Gesundheitsbehörde für Gesundheitsangelegenheiten zuständig
+und verfügt zum Beispiel über Daten der Krankenhausverteilung in
+Deutschland oder eine Verkehrsbehörde erhebt Daten zum Straßen-oder
+Schienennetz.</p>
+<p>Diese groben Beispiele sollen verdeutlichen, dass jede Behörde einen
+Auftrag hat und in diesem Auftrag Daten erzeugt, die
+veröffentlichungsfähig sind.</p>
+<h3 id="daten-auf-ausnahmetatbestände-prüfen"><a href="#daten-auf-ausnahmetatbest%C3%A4nde-pr%C3%BCfen" aria-hidden="true"><span class="icon icon-link"></span></a>Daten auf Ausnahmetatbestände prüfen</h3>
+<p>Es gibt Daten, die nicht veröffentlicht werden dürfen. § 12a (3) EGovG
+benennt diese Ausnahmetatbestände wie folgt:</p>
+<ul>
+<li>wenn an ihnen kein oder nur ein eingeschränktes Zugangsrecht
+besteht,</li>
+<li>Daten, die gemäß §§ 3-6 des Informationsfreiheitsgesetztes IFG von
+einer Veröffentlichung ausgeschlossen sind,</li>
+<li>wenn ein Zugangsrecht an den Daten erst nach Beteiligung Dritter
+bestünde,</li>
+<li>wenn die Daten ohne Auftrag der Behörde von Dritten erstellt und ihr
+ohne rechtliche Verpflichtung übermittelt werden oder</li>
+<li>wenn die Daten bereits über öffentlich zugängliche Netze entgeltfrei
+(als Open Data) bereitgestellt werden.</li>
+</ul>
+<p>Das heißt, wenn Sie Daten nutzen, die Sie zum Beispiel von einer
+Landesbehörde bekommen, müssen Sie diese nicht veröffentlichen. Wenn Sie
+aber Daten anderer Behörden sammeln und aggregiert zusammenstellen, kann
+daraus ein neuer Mehrwert für Nutzende entstehen und eine
+Veröffentlichung rechtfertigen.</p>
+<p>Wenn Ihnen Daten von Dritten ohne Auftrag und ohne rechtliche
+Verpflichtungen übermittelt werden, werden auch diese nicht
+veröffentlicht.</p>
+<p>Das IFG regelt den Zugang zu amtlichen Informationen und begründet ein
+Auskunftsrecht oder die Akteneinsicht. Dieses Ansinnen kann nur aus
+wichtigem Grund abgelehnt werden.</p>
+<p>So bezieht sich § 3 IFG auf den Schutz von besonderen öffentlichen
+Belangen, wie Informationen über internationale Beziehungen,
+militärische Belange, Belange der äußeren oder inneren Sicherheit,
+Angelegenheiten der externen Finanzkontrolle oder auch Verschlusssachen
+und Amtsgeheimnisse. Ebenso sind Informationen und Daten der
+Nachrichtendienste besonders geschützt.</p>
+<p>§ 4 IFG bezieht sich auf den Schutz behördlicher Entscheidungsprozesse.
+Solange und soweit durch die vorzeitige Bekanntgabe der Informationen
+der Erfolg der Entscheidung oder bevorstehender behördlicher Maßnahmen
+vereitelt würde, dürfen Daten nicht veröffentlich werden.</p>
+<p>§ 5 IFG schützt personenbezogene Daten (siehe
+<a href="#datenschutz-beachten">Datenschutz</a>) und</p>
+<p>§ 6 IFG schützt das geistige Eigentum sowie Betriebs- und
+Geschäftsgeheimnisse.</p>
+<p>Daraus ergibt sich die Pflicht, alle Daten, die keinem Hinderungsgrund
+unterliegen, grundsätzlich zu veröffentlichen. Nur in begründeten
+Ausnahmefällen soll von einer Veröffentlichung abgesehen werden
+(Open-by-Default).</p>
+<h3 id="datenschutz-beachten"><a href="#datenschutz-beachten" aria-hidden="true"><span class="icon icon-link"></span></a>Datenschutz beachten</h3>
+<p>Daten, die personenbezogen sind oder eine Personenbeziehbarkeit
+ermöglichen, dürfen gemäß § 12a EGovG nicht veröffentlicht werden.</p>
+<p>Bei der Anschaffung neuer Fachverfahren sollte gemäß des Gesetzes darauf
+geachtet werden, dass die darin enthaltenen Daten grundsätzlich
+veröffentlicht werden können („Open by Design“). Daraus abgeleitet
+sollte auch darauf geachtet werden, dass eine Personenbeziehbarkeit
+einzelner Daten von vorne herein vermieden wird.</p>
+<p>Unabhängig von diesem Gesetz können personenbezogene Daten jedoch
+veröffentlicht werden, wenn eine Anonymisierung oder Pseudonymisierung
+der Inhalte dergestalt erfolgt, dass eine Personenbeziehbarkeit
+ausgeschlossen wird. Wenn Sie Fragen dazu haben, sprechen Sie bitte
+vorab mit Ihrem Datenschutzbeauftragten.</p>
+<p>Um eine Kategorisierung aller Daten zu erleichtern, bietet sich die
+Einführung eines Ampelsystems an. Die <a href="https://www.stiftung-nv.de/de" target="_blank" rel="noopener noreferrer">Stiftung Neue
+Verantwortung</a> beschreibt in ihrer
+Toolbox „Ansätze und Instrumente für die verantwortungsvolle Öffnung von
+Verwaltungsdaten“ ein Ampelsystem zur Kategorisierung von Datensätzen
+nach potenziellem Datenschutzrisiko. Dabei werden alle Daten der Behörde
+in 3 Kategorien unterteilt:</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Farbe</strong></th>
+<th><strong>Daten</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Grün</strong></td>
+<td>Daten, die bedenkenlos als Rohdaten geöffnet werden können, ohne dass sie einer Anonymisierung unterlaufen müssen</td>
+</tr>
+<tr class="even">
+<td><strong>Gelb</strong></td>
+<td>Daten, die vom Open-Data-Gesetz nicht erfasst sind.<br />
+Die Daten können unabhängig vom Open–Data-Gesetz unter Berücksichtigung bestimmter Schutzmaßnahmen geöffnet werden, zum Beispiel nach einer Anonymisierung</td>
+</tr>
+<tr class="odd">
+<td><strong>Rot</strong></td>
+<td>Daten, die auf gar keinen Fall geöffnet werden dürfen</td>
+</tr>
+</tbody>
+</table>
+<p>[24]</p>
+<p>Da sich Risiken auch ändern können, ist eine regelmäßige Aktualisierung
+der Kategorisierung sicherzustellen.</p>
+<h2 id="bereitstellungsprozesse-konzeptionieren"><a href="#bereitstellungsprozesse-konzeptionieren" aria-hidden="true"><span class="icon icon-link"></span></a>Bereitstellungsprozesse konzeptionieren</h2>
+<p>Die Leitziele sind festgelegt, die beteiligten Rollen informiert, eine
+Einführungsstrategie wurde festgelegt. Das Umsetzungsteam ist
+zusammengestellt und mit dem Thema bereits vertraut. Außerdem besteht
+eine Übersicht über geeignete, in der Behörde erhobene Datensätze. Eine
+Priorisierung und ein Zeitplan zur Öffnung wurden ebenfalls erstellt.
+Schnittstellen zum Export in offene Dateiformate und mögliche
+Automatisierungen wurden ebenfalls konzipiert oder bereits beauftragt
+respektive implementiert. Auch die Persistenz der zu veröffentlichenden
+Daten ist sichergestellt.</p>
+<p>Durch die in Abbildung 8 dargestellte Veröffentlichung der Daten wird
+nun im nächsten Schritt der Regelbetrieb von Open Data gestartet.</p>
+<p>Abbildung 9: Daten veröffentlichen (eigene Darstellung)</p>
+<p>Der nun folgende Regelbetrieb setzt sich aus zwei Prozessschritten
+zusammen.</p>
+<ol>
+<li>Daten mit Metadaten anreichern</li>
+<li>Metadaten an GovData.de übermitteln</li>
+</ol>
+<p>Wichtig: Bei der Erfassung und Übertragung von Metadaten sowie bei dem
+Export von Daten in ein offenes Format handelt es sich um zwei
+voneinander getrennte Vorgänge. Die exportierte Datei eines Datensatzes
+verbleibt in der Regel beim Datenbereitstellenden. Die Metadaten
+verweisen auf diesen Datensatz und werden auf GovData.de übertragen. Es
+empfiehlt sich daher, beide Schritte geistig getrennt voneinander zu
+betrachten. Dennoch ist es möglich Metadaten und den Dateiexport
+simultan anzulegen, beispielsweise als Extension in einem Fachverfahren.</p>
+<p>Sowohl für Metadaten als auch für Lizenzen und Dateiformate existieren
+etablierte Standards, an denen Sie sich orientieren sollten.</p>
+<p>Darüber hinaus wird ein Qualitätsmanagement empfohlen, um die eigene
+Datenqualität zu erhöhen. Das Wissen über die Interessen und Bedarfe der
+Datennutzenden an Form und Inhalt der Daten kann auch bei der Öffnung
+neuer Datensätze helfen. Daten in hoher Qualität erhöhen zudem ich
+Wahrscheinlichkeit der Weiterverwendung.</p>
+<h3 id="bereitstellungsmethode"><a href="#bereitstellungsmethode" aria-hidden="true"><span class="icon icon-link"></span></a>Bereitstellungsmethode</h3>
+<p>Die bereitzustellenden Daten werden über Metadaten auf GovData.de
+auffindbar gemacht. Die Übertragung der Metadaten muss nur einmal
+aufgesetzt und erst bei technischen Anpassungen neu vorgenommen werden.
+Daher gilt es bereits im Vorfeld die Entscheidung zu treffen, wie die
+Anbindung an GovData.de gestaltet werden soll, um den weiteren
+Bereitstellungsprozess zu planen.</p>
+<p>Für die Bereitstellung ist eine Registrierung als akkreditierte Daten
+bereitstellende Stelle notwendig.</p>
+<p>Dabei sollte ein Hauptverantwortlichen für die Accountverwaltung
+bestimmt werden. Die Rolle des Open-Data-Ansprechpartners bietet sich
+dafür an. Nach erfolgter Akkreditierung ist es möglich, das Account für
+andere Stellen in Ihrer Behörde zu nutzen. Jeder angelegte Account
+erhält vollständigen Zugriff auf die eingepflegten Daten einer Behörde.
+Eine ausführliche Anleitung finden Sie auch im Leitfaden Anforderungen
+an die Daten.</p>
+<p>Die Akkreditierung als Daten bereitstellende Stelle und die möglichen
+Bereitstellungswege sehen wie folgt aus.</p>
+<ol>
+<li>Ihre Behörde / Ihr Ministerium hat noch kein Bereitstellerkonto:</li>
+</ol>
+<!-- -->
+<ol>
+<li>
+<p>Vergewissern Sie sich, dass ihr zuständiges Ministerium noch kein</p>
+<blockquote>
+<p>Bereitstellerkonto hat.</p>
+</blockquote>
+</li>
+<li>
+<p>Senden Sie formlos eine E-Mail an <a href="mailto:OpenData@bva.bund.de" target="_blank" rel="noopener noreferrer">OpenData@bva.bund.de</a> . Die</p>
+<blockquote>
+<p>E-Mail sollte die Namen der nutzenden, Institution sowie die Bitte
+um Eröffnung eines Datenbereitsteller-Konto enthalten.</p>
+</blockquote>
+</li>
+<li>Es wird geprüft, ob Sie als datenbereitstellende Stelle zugelassen
+werden.</li>
+<li>Ihr akkreditiertes Konto für die Datenbereitstellung wird
+freigeschaltet.</li>
+</ol>
+<!-- -->
+<ol>
+<li>Ihr Ministerium hat bereits ein Datenbereitstellerkonto:</li>
+</ol>
+<!-- -->
+<ol>
+<li>
+<p>Wenden Sie sich an die Open-Data-eauftragende Person Ihres</p>
+<blockquote>
+<p>zuständigen Ministeriums mit der Bitte um Zugang zu GovData.de als
+bereitstellende Stelle.</p>
+</blockquote>
+</li>
+<li>Dieser übersendet Ihnen einen Nutzernamen und ein Passwort.</li>
+<li>Mit diesen Zugangsdaten können Sie sich bei GovData.de anmelden.</li>
+</ol>
+<!-- -->
+<ol>
+<li>Sie haben bereits ein Datenbereitstellerkonto</li>
+</ol>
+<!-- -->
+<ol>
+<li>Für Sie ändert sich erstmal gar nichts. Sie arbeiten mit Ihren
+Anmeldedaten weiter wie bisher.</li>
+</ol>
+<p><strong>VORSCHLAG:</strong></p>
+<blockquote>
+<p><strong>Option 1:</strong> <strong>Ihre Behörde / Ihr Ministerium hat noch kein
+Bereitstellerkonto:</strong></p>
+</blockquote>
+<ul>
+<li>Vergewissern Sie sich, dass ihr zuständiges Ministerium noch kein
+Bereitstellerkonto hat.</li>
+<li>Senden Sie formlos eine E-Mail an <a href="mailto:OpenData@bva.bund.de" target="_blank" rel="noopener noreferrer">OpenData@bva.bund.de</a> . Die
+E-Mail sollte die Namen der nutzenden, Institution sowie die Bitte
+um Eröffnung eines Datenbereitsteller-Konto enthalten.</li>
+<li>Es wird geprüft, ob Sie als datenbereitstellende Stelle zugelassen
+werden.</li>
+<li>Ihr akkreditiertes Konto für die Datenbereitstellung wird
+freigeschaltet.</li>
+</ul>
+<p><strong>Option 2: Ihr Ministerium hat bereits ein Datenbereitstellerkonto:</strong></p>
+<ul>
+<li>Wenden Sie sich an die Open-Data-eauftragende Person Ihres
+zuständigen Ministeriums mit der Bitte um Zugang zu GovData.de als
+bereitstellende Stelle.</li>
+<li>Dieser übersendet Ihnen einen Nutzernamen und ein Passwort.</li>
+<li>Mit diesen Zugangsdaten können Sie sich bei GovData.de anmelden.</li>
+</ul>
+<p><strong>Option 3: Sie haben bereits ein Datenbereitstellerkonto</strong></p>
+<ul>
+<li>Für Sie ändert sich erstmal gar nichts. Sie arbeiten mit Ihren
+Anmeldedaten weiter wie bisher.</li>
+</ul>
+<p>Dieser zentrale Zugang über die Nutzungsdaten des zuständigen
+Ministeriums bedeutet, dass bei GovData alle nachgeordneten Behörden als
+Daten bereitstellende Stelle das Ministerium angezeigt bekommen und
+unter Veröffentlichende Stelle bitte Ihre Behördenbezeichnung
+einzutragen haben.</p>
+<p>Für die eigentliche Datenbereitstellung steht zurzeit nur ein Verfahren
+zur Verfügung.</p>
+<h4 id="manuelle-bereitstellung-per-webformular"><a href="#manuelle-bereitstellung-per-webformular" aria-hidden="true"><span class="icon icon-link"></span></a>Manuelle Bereitstellung per Webformular</h4>
+<p>Dies ist die einfachste, aber bei einer größeren Anzahl von Datensätzen
+auch aufwändigste Bereitstellungsvariante. Daher sollten Sie diese nur
+nutzen, wenn Sie gerade erst mit der Öffnung Ihrer Daten starten oder
+nur wenige Daten bereitstellen wollen.</p>
+<p>Für eine Nutzung des Webformulars müssen Sie als akkreditierte Daten
+bereitstellende Stelle auf GovData.de angemeldet sein (siehe oben). Auf
+den Seiten „<a href="https://www.govdata.de/daten" target="_blank" rel="noopener noreferrer">Daten</a>" bzw.
+„<a href="https://www.govdata.de/dokumente" target="_blank" rel="noopener noreferrer">Dokumente</a>" finden Sie dann links
+oben den Button „Datensatz/Dokumente hinzufügen". Hierunter ist ein
+Eingabeformular eingestellt, über das alle erforderlichen Angaben
+abgefragt werden. Sobald Sie dieses Formular entsprechend ausgefüllt
+haben, klicken Sie auf „Speichern". Ihre Angaben werden dann noch einmal
+durch das Redaktionsteam geprüft und anschließend veröffentlicht.</p>
+<p>Um die Angaben zu bereits veröffentlichten Datensätzen im Nachhinein zu
+bearbeiten, melden Sie sich erneut bei GovData.de an, besuchen dort die
+Detail-Seite des jeweiligen Datensatzes und klicken auf "Bearbeiten".
+Hier können Sie nun einzelne Angaben ändern oder auch weitere Ressourcen
+hinzufügen.</p>
+<p>Die Konzeption einer Open-Data-Strategie ist abgeschlossen und die dazu
+nötigen Vorbedingungen erfüllt. Nun gilt es, das bestehende Konzept in
+einen Regelbetrieb zu überführen.</p>
+<p>Mehr Informationen finden Sie dazu im Leitfaden Metadaten.</p>
+<h4 id="standards-richtig-umsetzen"><a href="#standards-richtig-umsetzen" aria-hidden="true"><span class="icon icon-link"></span></a>Standards richtig umsetzen</h4>
+<p>Durch Standards wird ein Mindestmaß an Interoperabilität der
+(Meta-)Daten untereinander gewährleistet. Zudem werden die
+Kompatibilitätsanforderungen der Daten an GovData.de sichergestellt.
+Während es eine Reihe von Dateiformaten zur Auswahl gibt, wobei zwischen
+besser und schlechter geeigneten unterschieden werden kann, gibt es für
+Lizenzen Standards, die einzuhalten sind.</p>
+<p>Das Metadatenportal GovData.de trägt zur Erfüllung europäischer und
+internationaler Verpflichtungen zur Bereitstellung von Daten bei und ist
+Teil einer europäischen Dateninfrastruktur. Eine wesentliche Grundlage
+hierfür ist die Implementierung von formalen Standards für den Austausch
+offener Verwaltungsdaten zwischen Open-Data-Portalen.</p>
+<p>Nur wenn Struktur und Bedeutung ausreichend einheitlich oder
+selbsterklärend sind, lässt sich ein zentrales Portal realisieren, das
+verschiedene Datenangebote unterschiedlicher Bereitsteller und die
+Inhalte bestehender Datenkataloge vereinigt.</p>
+<p>Durch den IT-Planungsrat wurde eine deutsche Ableitung des europäischen
+Metadatenstandards DCAT-AP als formaler Standard für Open-Date-Portale
+am 28. Juni 2018 verabschiedet
+(<a href="https://www.it-planungsrat.de/SharedDocs/Sitzungen/DE/2018/Sitzung_26.html?pos=9" target="_blank" rel="noopener noreferrer">https://www.it-planungsrat.de/SharedDocs/Sitzungen/DE/2018/Sitzung_26.html?pos=9</a>).</p>
+<p>Die deutsche Ableitung, DCAT-AP.de, ist für die Bereitstellung auf
+GovData.de verpflichtend. Bei Nutzung des Webformulars zur
+Bereitstellung von Metadaten werden die neuen Anforderungen erfüllt. Die
+Dokumentation des Standards ist unter <a href="http://www.dcat-ap.de/" target="_blank" rel="noopener noreferrer">http://www.dcat-ap.de/</a>
+verfügbar.</p>
+<p>Zur Vertiefung kann auch auf den Leitfaden Metadaten zurückgegriffen
+werden, der die Informationen noch einmal kompakt zusammenfasst und
+praxisnahe Handlungsempfehlungen beinhaltet.</p>
+<h3 id="metadaten-eingeben"><a href="#metadaten-eingeben" aria-hidden="true"><span class="icon icon-link"></span></a>Metadaten eingeben</h3>
+<p>Unter Metadaten versteht man strukturierte Daten, die Informationen über
+andere Informationsressourcen enthalten. Metadaten beschreiben also den
+eigentlichen Datensatz. Sie werden erforderlich, wenn es größere
+Datenmengen zu verwalten gibt. Ein Merkmal von Metadaten ist, dass sie
+maschinell lesbar und auswertbar sind.</p>
+<p>Mögliche Metadaten bei einem Buch wären zum Beispiel:</p>
+<ul>
+<li>Autor</li>
+<li>Titel</li>
+<li>Verlag</li>
+<li>Erscheinungsjahr</li>
+<li>Anzahl der Seiten</li>
+<li>ISB Nummer</li>
+</ul>
+<p>Metadaten sind der Schlüssel, zur Auffindbarkeit der Datensätze. Sie
+enthalten die wichtigsten Informationen über den jeweiligen Datensatz
+sowie einen eindeutigen Verweis auf die Ressource, unter der die Daten
+zu finden sind.</p>
+<p>Bei den Verweisen handelt es sich zumeist um Weblinks, wodurch eine
+Ressource eindeutig identifizierbar ist und die Gefahr, Dubletten
+anzufertigen minimiert wird. Die beschreibenden Metadaten liefern die
+nötigen Informationen, um den Inhalt des Datensatzes darzustellen, ohne
+den Datensatz selbst öffnen zu müssen. Metadatenstandards
+vereinheitlichen die auszufüllenden Felder, um ein einheitliches
+Qualitätsniveau zu erreichen. Neben obligatorischen Feldern, wie Angaben
+zur Datenbereitstellenden Stelle und den Titel des Datensatzes, können
+auch empfohlene und optionale weitere Metainformationen im
+Metadatenschema beigefügt werden. Dies ermöglicht eine noch präzisere
+Beschreibung der Daten und erhöht die Chance der Wieder- und
+Weiterverwendung deutlich.</p>
+<p>Durch Synonymbildung können Metadaten allerdings Redundanzen erzeugen,
+was der Auffindbarkeit und Vergleichbarkeit von Datensätzen abträglich
+ist. Beispiel: Kindertagesstätte, KiTa, Kinderhort und U3-Betreuung
+können jeweils als Suchwörter für Daten angelegt werden. Nutzen nun
+unterschiedliche Bereitstellende unterschiedliche Schlagwörter, kann die
+Daten nutzeende Person am Ende nur schwer alle relevanten Datensätze
+herausfiltern. Aus diesem Grund sollten allgemein übliche Begriffe
+gewählt werden vor regional spezifischen, keine Abkürzungen oder
+Fachtermine.</p>
+<p>Abbildung 10: DCAT-AP.de Spezifikation, Version 1.0 (2017)</p>
+<p>Vorschlag:</p>
+<p>Quelle:
+<a href="https://www.gdide.org/SharedDocs/Downloads/DE/GDIDE/Dokumente/Handlungsempfehlung_Metadaten_pflegen_verarbeiten.pdf?__blob=publicationFile" target="_blank" rel="noopener noreferrer">https://www.gdide.org/SharedDocs/Downloads/DE/GDIDE/Dokumente/Handlungsempfehlung_Metadaten_pflegen_verarbeiten.pdf?__blob=publicationFile</a></p>
+<img src="/home/thilak/Nextcloud/Admin/opendata.bund.de/media/image7.png" style="width:4.984in;height:3.73297in" />
+<h4 id="metadatenschema-einhalten"><a href="#metadatenschema-einhalten" aria-hidden="true"><span class="icon icon-link"></span></a>Metadatenschema einhalten</h4>
+<p>Das Metadatenschema DCAT-AP.de ist in seiner jetzigen Form seit 2017
+gültig. Es handelt sich dabei um eine Ableitung des europäischen
+Standards, welche die spezifischen Anforderungen der deutschern
+Verwaltung berücksichtigt.</p>
+<p>Dieser Standard sieht vor, dass, bei der Eingabe von Metadaten, nach
+obligatorische--, optionale und empfohlene-Felder unterschieden wird.</p>
+<p><strong>Obligatorische Felder</strong></p>
+<p>sind bei jeder Eingabe von Metadaten für einen Datensatz zu pflegen und
+stellen das absolute Minimum an beschreibenden Daten dar.</p>
+<p><strong>Optionale Felder</strong></p>
+<p>dienen der genaueren Beschreibung und damit verbunden einer besseren
+Auffindbarkeit der einzelnen Datensätze.Ihnen kommt eine wichtige Rolle
+zu, da nur mit ihnen ein Datensatz genauer beschrieben wird und sich von
+anderen abhebt. Diese Felder können und sollten gepflegt werden.</p>
+<p><strong>Empfohlene Felder</strong></p>
+<p>Perfekt wird es, wenn zusätzlch auch noch die empfohlenden Felder
+befüllt werden. Diese Felder geben Zusatz-Informationen, die den
+Nutzenden helfen bei der noch genaueren Zuordnung Ihres Datensatzes.</p>
+<p>Mehr Informationen zu dem neuen Metadatenstandart und den einzelnen
+Feldern finden Sie im Konventionshandbuch unter
+<a href="http://www.dcat-ap.de" target="_blank" rel="noopener noreferrer">www.dcat-ap.de</a>.</p>
+<h4 id="kategorisierung"><a href="#kategorisierung" aria-hidden="true"><span class="icon icon-link"></span></a>Kategorisierung</h4>
+<p>Achten Sie besonders darauf, Ihre Daten entsprechend den Konventionen
+der DCAT-AP.de-Vorgaben zu kategorisieren. Diese Angabe ist
+obligatorisch und ermöglicht eine erste thematische Einordnung Ihrer
+Datensätze auf GovData.de.</p>
+<p>Folgende Kategorien stehen zur Verfügung:</p>
+<ul>
+<li>Bevölkerung und Gesellschaft</li>
+<li>Bildung , Kultur und Sport</li>
+<li>Energie</li>
+<li>Gesundheit</li>
+<li>Internationale Themen</li>
+<li>Justiz, Rechtssystem und öffentliche Sicherheit</li>
+<li>Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel</li>
+<li>Regierung und öffentlicher Sektor</li>
+<li>Regionen und Städte</li>
+<li>Umwelt</li>
+<li>Verkehr</li>
+<li>Wirtschaft und Finanzen</li>
+<li>Wissenschaft und Technologie</li>
+</ul>
+<h4 id="einheitliches-vokabular-verwenden"><a href="#einheitliches-vokabular-verwenden" aria-hidden="true"><span class="icon icon-link"></span></a>Einheitliches Vokabular verwenden</h4>
+<p>Während die obligatorischen Felder zumeist eindeutige Eingaben
+erfordern, wie den genauen Titel des Datensatzes oder das
+Erstellungsdatum, finden sich unter den empfohlenen Feldern
+Freitexteingaben, die einer möglichst hohen Harmonisierung bedürfen.
+Insbesondere bei der Eingabe von Schlagwörtern sollten Sie sich an
+gängige Begriffe bzw.bestehenden Vokabularen orientieren. Ist dies nicht
+möglich, sollte zumindest ein Hausvokabular entwickelt werden, um
+Synonymbildung vorzubeugen.</p>
+<h3 id="it-struktur"><a href="#it-struktur" aria-hidden="true"><span class="icon icon-link"></span></a>IT-Struktur</h3>
+<p>Es ist generell ratsam, die vorhandene IT in Ihrem Haus genau zu prüfen.
+Dort wo es notwendig ist, sollte eine Erweiterung durch Schnittstellen
+oder weitere Anpassungen geprüft werden.</p>
+<p>Falls die vorhandenen technischen Gegebenheiten nicht ausreichend sind,
+sollte über Neuanschaffungen, auch mit Blick auf eine Gesamtstrategie
+Digitalisierung nachgedacht werden. Der alltägliche Aufwand für die
+Mitarbeitenden sollte so viel technische Unterstützung wie möglich
+erfahren, um den Daueraufwand gering zu halten.</p>
+<p>So ist zum Beispiel zu überlegen, wie die dauerhafte Bereitstellung der
+Daten sichergestellt werden kann: erfolgt diese Bereitstellung über
+einen dedizierten Server oder beispielsweise eine Cloud-Anwendung? Auch
+sollte sichergestellt werden, dass die Daten persistent, also dauerhaft
+zur Verfügung stehen.</p>
+<p>Zudem sollte nicht außer Acht gelassen werden, dass sich die Anzahl
+Ihrer zu veröffentlichenden Daten und damit die Bereitstellungsmethode
+ändern kann. So ist eine Veröffentlichung über das Webformular bei
+GovData.de sinnvoll, um kurzfristig erste Daten bereit zu stellen. Bei
+wachsender Zahl bereitzustellender Daten wird eine automatisierte
+technische Anbindung zunehmend attraktiver, kostengünstiger, weniger
+fehleranfällig und überwiegt sehr schnell im Nutzen. Daher sollte bei
+technischen Veränderungen in Ihrem Hause eine Anlieferung von offenen
+Verwaltungsdaten immer mit bedacht werden. Dieses Vorgehen entspricht §
+12a EGovG.</p>
+<p>Eine konsequente und kluge Einbindung in die Gesamtstrategie der Behörde
+ermöglicht die Nutzung von Synergien. So kann ein solides
+Datenmanagement gegebenenfalls interne Prozesse beschleunigen, digitales
+Prozessmanagement vereinfachen und zeitgleich die Grundlage für die
+Auswahl der zu öffnenden Datensätze sein.</p>
+<h2 id="datenqualität-kontinuierlich-verbessern"><a href="#datenqualit%C3%A4t-kontinuierlich-verbessern" aria-hidden="true"><span class="icon icon-link"></span></a>Datenqualität kontinuierlich verbessern</h2>
+<p>Auch nach der Bereitstellung der Metadaten auf GovData.de. gilt es die
+Datenqualität zu überwachen und auf einem hohen Niveau zu halten, damit
+eine Weiternutzung auch dauerhaft erfolgen kann. Die Pflege bestehender
+Daten und der dazugehörigen Metadaten sind deshalb fester Bestandteil
+jedes Bereitstellungsprozesses.</p>
+<p>Die häufigsten Fehler sind tote Links und Verstöße gegen das
+Metadatenschema. Datenbereitstellenden ist es möglich, sich selbst
+mithilfe von Verweis- oder Schemaprüfern auf GovData.de ein Bild von der
+Datenqualität zu machen. Finden sich hier Fehler, gilt es diese
+schnellstmöglich zu beseitigen.</p>
+<p>Durch die Einplanung von Data-Lifecycles und der damit verbundenen
+Aktualisierung der Metadaten können Sie auch proaktiv die Datenqualität
+sichern und gleichzeitig die Öffnung neuer Datensätze vereinfachen.</p>
+<h3 id="aktualität-der-metadaten-sicherstellen"><a href="#aktualit%C3%A4t-der-metadaten-sicherstellen" aria-hidden="true"><span class="icon icon-link"></span></a>Aktualität der Metadaten sicherstellen</h3>
+<p>Im Data-Lifecycle ist die Aktualisierung von Datensätzen fest
+eingeplant. Dabei sollten nicht nur die Datensätze selbst, sondern auch
+die zugehörigen Metadaten auf dem aktuellen Stand gehalten werden. Dies
+ist entweder durch Automatisierung zu gewährleisten oder durch manuelle
+Aktualisierung über das Webformular auf GovData.de.</p>
+<p>Abbildung 11: Open Data im Dauerbetrieb (eigene Darstellung)</p>
+<h3 id="prozesskreislauf-in-gang-halten-und-datenqualität-erhöhen"><a href="#prozesskreislauf-in-gang-halten-und-datenqualit%C3%A4t-erh%C3%B6hen" aria-hidden="true"><span class="icon icon-link"></span></a>Prozesskreislauf in Gang halten und Datenqualität erhöhen</h3>
+<p>Ihre Daten liegen nun öffentlich zugänglich in einem maschinenlesbaren
+Format vor und sind durch Lizenzen auch rechtlich geöffnet. Sie sind
+katalogisiert und mit Metadaten zur besseren Auffindbarkeit
+angereichert. Die Metadaten sind an GovData.de – entweder manuell oder
+automatisiert – übertragen und finden vielleicht bereits erste an den
+eingestellten Daten interessierte Nutzende.</p>
+<p>Es gilt nun, die bestehende Datenqualität auf hohem Niveau zu halten.
+Hören Sie auf das Feedback von Datennutzenden und reagieren Sie auf
+möglicherweise sich verändernde Rahmenbedingungen. Erhöhen Sie die
+Qualität Ihrer bereitgestellten Datensätze wann immer möglich und geben
+Sie neue Datensätze frei. So stellen Sie sicher, dass ein möglichst
+großes Wertschöpfungspotenzial freigesetzt wird und profitieren
+zeitgleich von einer steigenden Datenqualität in Ihrer Behörde.</p>
+<p>Abbildung 12: Datenqualität verbessern (eigene Darstellung)</p>
+</div><div class="mt-8 pt-8 lg:mt-12 lg:pt-12 border-t border-ui-border"><div><div class="flex flex-col sm:flex-row justify-between items-center"><a href="/ccod-website/docs/installation/" class="mb-4 sm:mb-0 flex items-center mr-auto text-ui-primary font-bold px-4 py-2 border border-ui-border rounded-lg hover:bg-ui-primary hover:text-white transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2 feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+      Einführungsphase
+    </a><!----></div></div></div></div></div></div></main></div><!----></div>
+    <script src="/ccod-website/assets/js/app.c537b9c0.js" defer></script><script src="/ccod-website/assets/js/page--src--templates--markdown-page-vue.54af8560.js" defer></script>
+  </body>
+</html>
